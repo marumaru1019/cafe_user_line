@@ -1,0 +1,5 @@
+line-bot-sdk
+pandas
+numpy
+requests
+boto3
