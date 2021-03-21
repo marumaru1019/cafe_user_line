@@ -12,7 +12,7 @@ workflows:
       - sam/deploy:
           name: deploy-production
           stack-name: sam-app
-          template: ../aws-sam/build/template.yaml
+          template: ./aws-sam/build/template.yaml
           s3-bucket: aws-sam-cli-managed-default-samclisourcebucket-4ttmarv49u95
 
 
