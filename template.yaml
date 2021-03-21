@@ -21,6 +21,7 @@ Resources:
           Properties:
             Path: /hello
             Method: get
+      ImageUri: helloworldfunction:python3.7-v1
     Metadata:
       DockerTag: python3.7-v1
       DockerContext: ./hello_world
