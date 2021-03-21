@@ -13,3 +13,7 @@ workflows:
           name: deploy-production
           stack-name: sam-app
           template: template.yaml
+          s3-bucket: aws-sam-cli-managed-default-samclisourcebucket-4ttmarv49u95
+          aws-region: ap-northeast-1
+
+
